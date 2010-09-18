@@ -51,7 +51,14 @@
             <children>
               <component id="34df1" class="javax.swing.JTable" binding="resultsTable" custom-create="true">
                 <constraints/>
-                <properties/>
+                <properties>
+                  <fillsViewportHeight value="true"/>
+                </properties>
+                <clientProperties>
+                  <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+                  <Table.isFileList class="java.lang.Boolean" value="false"/>
+                  <html.disable class="java.lang.Boolean" value="true"/>
+                </clientProperties>
               </component>
             </children>
           </scrollpane>
